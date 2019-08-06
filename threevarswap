@@ -1,0 +1,79 @@
+#include<stdio.h>
+
+
+
+
+
+
+
+include<conio.h>
+swap(int* ,int* );
+int main(){
+	int a,b;
+	printf("Enter first no");
+	scanf("%d",&a);
+	printf("\nEnter second no");
+	scanf("%d",&a);
+	swap(&a,&b);
+	printf("\nNumbers after swapping: %d,%d",a,b);
+	return 0;
+
+}
+
+
+void swap(int* x,int* y){
+
+	int temp;
+	temp=*x;
+	*x=*y;
+	*y=temp;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
